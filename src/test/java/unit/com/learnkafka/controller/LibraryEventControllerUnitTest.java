@@ -1,6 +1,5 @@
 package com.learnkafka.controller;
 
-import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.learnkafka.domain.Book;
 import com.learnkafka.domain.LibraryEvent;
