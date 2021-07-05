@@ -1,8 +1,8 @@
 package com.learnkafka.controller;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.learnkafka.domain.Book;
-import com.learnkafka.domain.LibraryEvent;
+import com.learnkafka.entity.Book;
+import com.learnkafka.entity.LibraryEvent;
 import com.learnkafka.producer.LibraryEventProducer;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;

@@ -1,23 +1,23 @@
-package com.learnkafka.domain;
+package com.learnkafka.entity;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-import javax.validation.Valid;
+import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.NotNull;
-
 
 @AllArgsConstructor
 @NoArgsConstructor
 @Data
 @Builder
-public class LibraryEvent {
+public class Book {
 
-    private Integer libraryEventId;
-    private LibraryEventType libraryEventType;
     @NotNull
-    @Valid
-    private Book book;
+    private Integer bookId;
+    @NotBlank
+    private String bookName;
+    @NotBlank
+    private String bookAuthor;
 }

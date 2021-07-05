@@ -1,7 +1,7 @@
 package com.learnkafka.controller;
 
-import com.learnkafka.domain.Book;
-import com.learnkafka.domain.LibraryEvent;
+import com.learnkafka.entity.Book;
+import com.learnkafka.entity.LibraryEvent;
 import org.apache.kafka.clients.consumer.Consumer;
 import org.apache.kafka.clients.consumer.ConsumerRecord;
 import org.apache.kafka.common.serialization.IntegerDeserializer;

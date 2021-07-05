@@ -2,8 +2,8 @@ package com.learnkafka.producer;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.learnkafka.domain.Book;
-import com.learnkafka.domain.LibraryEvent;
+import com.learnkafka.entity.Book;
+import com.learnkafka.entity.LibraryEvent;
 import org.apache.kafka.clients.producer.ProducerRecord;
 import org.apache.kafka.clients.producer.RecordMetadata;
 import org.apache.kafka.common.TopicPartition;
